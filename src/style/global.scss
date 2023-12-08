@@ -1,0 +1,53 @@
+@import "navbar";
+@import "section";
+@import "worker";
+@import "cards";
+@import "gallery";
+@import "footer";
+
+
+
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style-type: none;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: #163561;
+    
+}
+
+a:hover{
+    color: white;
+    transition: 0.5s;
+    
+}
+
+.container{
+    width: 1920px;
+    margin: 0 auto; 
+}
+
+button:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #A3C1EF;
+    transition: 0.5s;
+    border: unset;
+    
+
+}
